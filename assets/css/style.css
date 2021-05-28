@@ -70,9 +70,9 @@ a:active {
     font-family: "B612", sans-serif;
     position: absolute;
     margin: 250px 250px;
-    animation:         blink 300ms linear infinite;
-    -moz-animation:    blink 300ms linear infinite;
-    -webkit-animation: blink 300ms linear infinite;
+    animation:         blink 600ms linear infinite;
+    -moz-animation:    blink 600ms linear infinite;
+    -webkit-animation: blink 600ms linear infinite;
 }
 
 @keyframes             blink { 0% {opacity:0;} 50% {opacity:1;} 100% {opacity:0;} }

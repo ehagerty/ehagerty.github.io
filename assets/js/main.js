@@ -1,6 +1,7 @@
 particlesJS.load("particles-js", "assets/particles.json", function () {
   console.log("callback - particles.js config loaded");
 });
+/*
 tsParticles.load("tsparticles", {
   fpsLimit: 60,
   particles: {
@@ -134,6 +135,7 @@ tsParticles.load("tsparticles", {
     size: "cover",
   },
 });
+*/
 const instance = new Typewriter("#typewriter", {
   loop: true,
 });

@@ -78,9 +78,9 @@ canvas {
   font-family: "B612", sans-serif;
   position: absolute;
   margin: 350px 250px;
-  animation: blink 4000ms linear infinite;
-  -moz-animation: blink 4000ms linear infinite;
-  -webkit-animation: blink 4000ms linear infinite;
+  animation: blink 10000ms linear infinite;
+  -moz-animation: blink 10000ms linear infinite;
+  -webkit-animation: blink 10000ms linear infinite;
 }
 
 #me {
@@ -89,7 +89,7 @@ canvas {
   font-size: 70px;
   font-family: "B612", sans-serif;
   position: absolute;
-  margin: 350px 400px;
+  margin: 350px 420px;
   animation: blink 2000ms linear infinite;
   -moz-animation: blink 2000ms linear infinite;
   -webkit-animation: blink 2000ms linear infinite;
@@ -130,7 +130,7 @@ canvas {
 }
 
 #typewriter {
-  color: #008f0c;
+  color: #019b0e;
   position: absolute;
   font-size: 60px;
   font-family: "B612", sans-serif;

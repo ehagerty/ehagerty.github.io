@@ -6,7 +6,7 @@ const instance = new Typewriter("#typewriter", {
 });
 
 instance
-  .typeString("Wake up Neo...")
+  .typeString("Wake up, Neo...")
   .pauseFor(5000)
   .deleteAll()
   .typeString("you like Kung Fu?")

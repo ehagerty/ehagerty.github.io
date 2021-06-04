@@ -138,7 +138,8 @@ tsParticles.load("tsparticles", {
 */
 const instance = new Typewriter("#typewriter", {
   loop: true,
-  delay: 'natural',
+  delay: "natural",
+  deleteSpeed: 'natural'
 });
 
 instance

@@ -69,7 +69,7 @@ a:active {
   font-size: 70px;
   font-family: "B612", sans-serif;
   position: absolute;
-  margin: 350px 380px;
+  margin: 350px 400px;
   animation: blink 600ms linear infinite;
   -moz-animation: blink 600ms linear infinite;
   -webkit-animation: blink 600ms linear infinite;

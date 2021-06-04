@@ -57,7 +57,6 @@ a:active {
     color: #000000;
     font-size: 70px;
     font-family: "B612", sans-serif;
-    position: absolute;
     margin: 250px 250px;
     animation:         blink 300ms linear infinite;
     -moz-animation:    blink 300ms linear infinite;

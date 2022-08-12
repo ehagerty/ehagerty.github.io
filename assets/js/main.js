@@ -137,6 +137,7 @@ tsParticles.load("tsparticles", {
 });
 */
 var myArr = [
+  "test",
 	"Wake up, Neo...",
 	"you like Kung Fu?",
 	"what if what goes around actually didn't?",
@@ -159,4 +160,3 @@ const instance = new Typewriter("#typewriter", {
   deleteSpeed: 'natural',
   strings: myArr
 });
-

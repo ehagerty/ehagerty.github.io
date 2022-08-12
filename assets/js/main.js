@@ -136,47 +136,27 @@ tsParticles.load("tsparticles", {
   },
 });
 */
+var myArr = [
+	"Wake up, Neo...",
+	"you like Kung Fu?",
+	"what if what goes around actually didn't?",
+	"what if what goes up didn't actually come down?",
+	"what would Kirk do?",
+	"when everything is urgent, nothing is",
+	"when anything is optional, everything is",
+	"pizza, with a side order of justice",
+	"find one in every car. You'll see",
+	"there's one about an enormous fish which you haven't heard",
+	"it's like being jealous of a bag of sand",
+	"Why is it that when I read 'It supports both C and C++ development' all I can think is 'we play both kinds of music, country and western'",
+	"like my grandma used to say, 'f*ck me, no f*ck you!'",
+];
+
 const instance = new Typewriter("#typewriter", {
   loop: true,
+  autostart: true,
   delay: "natural",
-  deleteSpeed: 'natural'
+  deleteSpeed: 'natural',
+  strings: myArr
 });
 
-instance
-	.typeString("Wake up, Neo...")
-	.pauseFor(5000)
-	.deleteAll()
-	.typeString("you like Kung Fu?")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("what if what goes around actually didn't?")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("what if what goes up didn't actually come down?")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("what would Kirk do?")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("when everything is urgent, nothing is")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("when anything is optional, everything is")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("pizza, with a side order of justice")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("find one in every car. You'll see")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("there's one about an enormous fish which you haven't heard")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("it's like being jealous of a bag of sand")
-	.pauseFor(1000)
-	.deleteAll()
-	.typeString("Why is it that when I read 'It supports both C and C++ development' all I can think is 'we play both kinds of music, country and western'")
-	.pauseFor(1000)
-	.deleteAll()
-	.start();

@@ -179,4 +179,10 @@ instance
 	.typeString("Why is it that when I read 'It supports both C and C++ development' all I can think is 'we play both kinds of music, country and western'")
 	.pauseFor(1000)
 	.deleteAll()
+	.typeString("there is no spoon")
+	.pauseFor(1000)
+	.deleteAll()
+	.typeString("go crazy, but don't look like a twat")
+	.pauseFor(1000)
+	.deleteAll()
 	.start();
